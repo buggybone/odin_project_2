@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    gap: 12px;
+    padding: 12px 24px;
+}
+
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 24px 48px;
+    margin-top: auto;
+}
+
+.top {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 96px;
+    gap: 16px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px;
+}
+
+.four {
+    display: flex;
+    padding: 24px 48px;
+    margin-bottom: auto;
+    align-items: stretch;
+}
+
+.bold-one {
+    font-size: 24px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.push, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px 48px;
+    flex: 1;
+}
+
+.right {
+    background-color: darkgrey;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    flex: 1;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+button {
+    all: unset;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+
+.author {
+    font-weight: bolder;
+}
+
+.action-left, .action-right {
+    background-color: #3882F6;
+    padding: 16px;
+    flex: 1;
+    color: #F9FAF8;
+}
+
+.action-top {
+    font-weight: bolder;
+}
+
+
+.action-right {
+    padding: 10px;
+    align-items: center;
+}
+
+.special {
+    border: 2px #F9FAF8 solid;
+}
